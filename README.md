@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# Serkan's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal website, re-imagined as an interactive desktop operating system.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I didn't want a boring static portfolio, so I built this to look and feel like a real computer.
 
-## React Compiler
+When you open the site, it zooms into a photo of my actual desk setup, logs you in, and lets you browse my experience and projects through a functional desktop interface. It’s built to be interactive—you can open windows, drag things around, and write notes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built this to push my React skills and create something memorable.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React (Vite)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** (for the animations)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Cool Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **The Intro:** A cinematic zoom from my room into the screen.
+- **Login:** A realistic password typing animation.
+- **Window System:** You can open, close, and multitask with different apps.
+- **Guestbook:** A notepad that actually saves your notes using Local Storage.
+- **Custom UI:** Glassmorphism design that mimics a modern OS.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Running Locally
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repo
+   ```bash
+   git clone [https://github.com/serkturk/my-portfolio.git](https://github.com/serkturk/my-portfolio.git)
+   cd my-portfolio
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Install Dependencies
+  ```bash
+  npm install
+  ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. Run It
+  ```bash
+  npm run dev
+  ```
+
+## Coming Soon
+
+I'm currently updating this for my junior year recruiting cycle.
+- Adding my **Jane Street** and **Capital One** experiences
+- Building a working Terminal app.
+- Connecting the Guestbook to a real backend.
+
+## Contact
+
+**Serkan Aymaz**
+
+- Email: [sa2392@cornell.edu](mailto:sa2392@cornell.edu)
+- LinkedIn: [linkedin.com/in/serkan-aymaz](https://www.linkedin.com/in/serkan-aymaz/)
+
+   
