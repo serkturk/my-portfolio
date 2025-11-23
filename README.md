@@ -29,7 +29,7 @@ I built this to push my React skills and create something memorable.
 
 1. Clone the repo
   ```bash
-  git clone [https://github.com/serkturk/my-portfolio.git](https://github.com/serkturk/my-portfolio.git)
+  git clone https://github.com/serkturk/my-portfolio.git
   cd my-portfolio
   ```
 
