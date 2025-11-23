@@ -6,7 +6,7 @@ My personal website, re-imagined as an interactive desktop operating system.
 
 I didn't want a boring static portfolio, so I built this to look and feel like a real computer.
 
-When you open the site, it zooms into a photo of my actual desk setup, logs you in, and lets you browse my experience and projects through a functional desktop interface. It’s built to be interactive-you can open windows, drag things around, and write notes.
+When you open the site, it zooms into a photo of my actual desk setup, logs you in, and lets you browse my experience and projects through a functional desktop interface. It’s built to be interactive--you can open windows, drag things around, and write notes.
 
 I built this to push my React skills and create something memorable.
 
